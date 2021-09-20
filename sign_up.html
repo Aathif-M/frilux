@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap 4.5 CSS -->
+  	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+  	<!-- Style CSS -->
+  	<link rel="stylesheet" href="style.css">
+
+  	<!-- attach the JS files -->
+  	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+  	<script type="text/javascript" src="js/bootstrap.js"></script>
+  	<script type="text/javascript" src="js/fontawesome-all.js"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+  	<!-- Google Fonts -->
+  	<link rel="preconnect" href="https://fonts.googleapis.com">
+  	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <title>Frilux: Sign up</title>
+
+  </head>
+  <body>
+
+
+    <!-- Navigation -->
+  	<nav class="navbar bg-light navbar-light navbar-expand-lg">
+  		<div class="container">
+
+  			<a href="index.html" class="navbar-brand"><img src="./frilux/logo.png" alt="logo"></a>
+
+  			<button class="navbar-toggler" type="button" data-toggle="collapse"
+  				data-target="#navbarResponsive">
+  				<span class="navbar-toggler-icon"></span>
+  			</button>
+
+  			<div class="collapse navbar-collapse" id="navbarResponsive">
+
+  				<ul class="navbar-nav ml-auto">
+
+  					<li class="nav-item"><a href="index.html" class="nav-link  ">Home</a></li>
+  					<li class="nav-item">
+              <div class="dropdown">
+                <button class="dropbtn nav-link">Gallery
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+
+                  <a href="burberry.html">Burberry</a>
+                  <a href="armani_exchange.html">Armani Exchange</a>
+                  <a href="oakley.html">Oakley</a>
+                  <a href="ray_ban.html">Ray Ban</a>
+                  <a href="gucci.html">Gucci</a>
+
+                </div>
+              </div>
+            </li>
+  					<li class="nav-item"><a href="contact_us.html" class="nav-link ">Contact Us</a></li>
+  					<li class="nav-item"><a href="about_us.html" class="nav-link ">About Us</a></li>
+  					<li class="nav-item"><a href="sign_up.html" class="nav-link active">Sign Up</a></li>
+
+  				</ul>
+
+  			</div>
+
+  		</div>
+  	</nav>
+  	<!-- End Navigation -->
+
+    <div class="container text-center p-0">
+      <h1 class="text-dark pt-4 text-center">Sign Up</h1>
+      <div class="border-top w-25 mx-auto mb-4" style="border-color: #1F586B !important"></div>
+
+      <div class="row my-4">
+        <div class="col-md-3 col-sm-4 col-xs-12"></div>
+        <div class="col-md-6 col-sm-4 col-xs-12">
+
+          <form class="form" action="page_under_construction.html" method="post"  onsubmit="return validateForm()">
+            <div class="form-row">
+
+              <div class="form-group col-md-6 text-left">
+                <label for="name">Name <span class="text-danger">*</span></label>
+                <input type="text" class="form-control" name="name" id="name" value="" >
+              </div>
+
+              <div class="form-group col-md-6 text-left">
+                <label for="contact_no">Contact Number <span class="text-danger">*</span></label>
+                <input type="number" class="form-control" name="contact_no" id="contact_no" value="" >
+              </div>
+
+              <div class="form-group col-md-12 text-left">
+                <label for="address">Address</label>
+                <input type="text" class="form-control" name="address" id="address" value="" >
+              </div>
+
+              <div class="form-group col-md-6 text-left">
+                <label for="email">Email <span class="text-danger">*</span></label>
+                <input type="email" class="form-control" name="email" id="email" value="" >
+              </div>
+
+              <div class="form-group col-md-6 text-left">
+                <label for="password">Password <span class="text-danger">*</span></label>
+                <input type="password" class="form-control" name="access_code" id="access_code" value="" >
+              </div>
+
+              <div class="form-group col-md-8 text-left">
+                <p>By signing in you agree to our <a href="page_under_construction.html">terms</a> and <a href="page_under_construction.html">conditions</a></p>
+              </div>
+
+              <div class="form-group col-md-4 text-left">
+                <input type="submit" value="Sign Up" class="btn btn-outline-secondary w-100" id="defaultbtn">
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start Footer -->
+  	<footer>
+  		<div class="container">
+  			<div class="row text-light text-center py-4 justify-content-center">
+
+  				<div class="col-sm-11 col-md-9 col-lg-7">
+
+  					<p>2021 &copy; All Rights Reserved | Designed and Developed by Mohamed Aathif</p>
+
+  					<ul class="social pt-3">
+  						<li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+  						<li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+  						<li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+  						<li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+  					</ul>
+
+  				</div>
+  			</div>
+  		</div>
+  	</footer>
+  	<!-- End Footer -->
+
+    <script type="text/javascript">
+
+      function validateForm(){
+
+        var name  = document.getElementById("name").value;
+        var contact_no  = document.getElementById("contact_no").value;
+        var email  = document.getElementById("email").value;
+        var access_code  = document.getElementById("access_code").value;
+
+        if(name == ""){
+          alert('Name cannot be an empty value');
+          return false;
+        }
+        else if (contact_no == "") {
+          alert('Contact Number cannot be an empty value');
+          return false;
+        }
+        else if (email == "") {
+          alert('Please provide an email');
+          return false;
+        }
+        else if (access_code == "") {
+          alert('Enter a password');
+          return false;
+        }
+        return true;
+
+      }//end of validateForm() js function
+
+    </script>
+    <!--script ends here-->
+
+  </body>
+</html>

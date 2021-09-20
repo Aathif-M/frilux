@@ -1,0 +1,18 @@
+/* my custom made bootstrap designs */
+
+body{
+  background-color: #449aaa;
+}
+
+/*overriding the settings or formats*/
+.btn{​​​​
+  border-radius: 0px !important;
+  background-color: #7c00de;
+  border-color:#7c00de;
+  min-width: 150px;
+}​​​​
+
+.btn:hover{​​​​
+  background-color: #550099 !important;
+  border-color:#550099 !important;
+}​​​​

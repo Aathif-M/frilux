@@ -1,0 +1,232 @@
+p, label{
+  font-family: 'Noto Sans TC', sans-serif;
+  line-height: 25px;
+}
+
+/* ------------------NavBar----------------- */
+
+.navbar-brand img{
+  height: 60px;
+}
+
+.navbar{
+  padding: 0;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  background-color: #b4c8da!important;
+}
+
+.nav-item{
+  padding: 8px;
+}
+
+.nav-link{
+  color: #000000 !important;
+}
+
+.nav-link.active,
+.nav-link:hover{
+  color: #1F586B !important;
+}
+
+.dropbtn {
+  background-color: #b4c8da;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  padding: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #b4c8da;
+  min-width: 200px;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover{
+  background-color: #ddd;
+}
+
+.dropdown-content a:hover{
+  color: #1F586B;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+/* ----------------- End of navBar --------------- */
+
+
+/*===== FIXED BACKGROUND IMG =====*/
+.fixed{
+    background-image: url('frilux/wrapimg.jpg');
+    position: fixed;
+}
+
+.fixed-background {
+  padding: 160px 0px;
+  overflow: hidden;
+}
+
+.fixed-background .row{
+  background-color: rgba(0, 0, 0, 0.4);
+  font-weight:900;
+  color: #fff;
+}
+
+#defaultbtn{
+  background-color: #174352;
+  color: #fff;
+  border-color: #174352;
+}
+
+#defaultbtn:hover{
+  background-color: #1F586B;
+}
+
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999!important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
+/*===== FIXED BACKGROUND IMG end =====*/
+
+
+
+/* ------------------Carousel----------------- */
+#carousel{
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
+}
+
+.carousel-inner{
+  max-height: 500px !important;
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active{
+  transition: transform 0.65s ease;
+}
+
+.btn-outline-secondary:hover{
+  background-color: #1F586B;
+  border-color: #1F586B;
+}
+/*------------------- Carousel End ---------------------*/
+
+
+/*------------------- Footer ---------------------*/
+footer{
+  background-color: #002029;
+  padding: 16px 32px 20px;
+}
+
+footer img{
+  height: 56px;
+  margin: 24px auto;
+}
+
+footer p, footer a{
+  color: white;
+  text-decoration: none;
+}
+
+ul.social{
+  list-style-type: none;
+  display: flex;
+  max-width: 256px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul.social li{
+  margin: 0 auto;
+}
+
+footer .svg-inline--fa{
+  font-size: 36.8px;
+  transition: 0.2s;
+}
+
+footer .svg-inline--fa:hover{
+  color: #1F586B;
+}
+/*------------------- Footer Ends ---------------------*/
+
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row, .container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+
+/*----------------------Gallery----------------------*/
+.card{
+  background-color: #f6f6f6;
+}
+
+.card-body h5{
+  margin-bottom: 25px;
+}
+
+.card-body h6{
+  font-size: 30px;
+  color: #002029;
+}
+
+.card-body hr{
+  margin: 0px;
+}
+
+.card-body p{
+  font-size: 15px;
+  margin: 8px 0px 8px;
+}
+
+.card-body span{
+  float: right;
+}
+
+/*----------------------Gallery End----------------------*/
